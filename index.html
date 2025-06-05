@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Countdown App</title>
+<style>
+  body { font-family: Arial, sans-serif; padding: 2rem; }
+  label { margin-right: 0.5rem; }
+  #countdown { font-size: 2rem; margin-top: 1rem; }
+</style>
+</head>
+<body>
+  <h1>Countdown App</h1>
+  <div>
+    <label for="title">Subject:</label>
+    <input id="title" type="text" placeholder="Birthday">
+  </div>
+  <div>
+    <label for="date">Date & Time:</label>
+    <input id="date" type="datetime-local">
+  </div>
+  <button id="start">Start Countdown</button>
+  <h2 id="subject"></h2>
+  <div id="countdown"></div>
+  <script src="countdown.js"></script>
+</body>
+</html>

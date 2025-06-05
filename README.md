@@ -46,3 +46,7 @@ If the exercise isn't ready in 20 seconds, please check the [Actions](../../acti
 ---
 
 &copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+
+## Countdown App
+
+This repository includes a simple countdown application. Open `index.html` in your browser to set a subject (like a birthday) and start counting down to a specific date and time.
